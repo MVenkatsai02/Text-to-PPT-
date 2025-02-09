@@ -1,0 +1,30 @@
+# Ignore environment variables and API keys
+.env
+
+# Ignore generated PowerPoint files
+generated_ppt/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore Streamlit cache
+.streamlit/
